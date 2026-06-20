@@ -1,96 +1,84 @@
-# Terminal Portfolio Website by Sat Naing
+# Terminal Portfolio — Rishi Raj
 
-![Terminal Portfolio Website by Sat Naing](https://user-images.githubusercontent.com/53733092/194220661-e2ff8b4c-f64a-4b64-a836-c52fae6bbcda.png)
+My personal portfolio website in terminal style, built with React, TypeScript, and Styled-Components.
 
-![ts](https://badgen.net/badge/Built%20With/TypeScript/blue?style=flat-square)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/81fdb91d-c06f-46c2-b18d-dfc6f090f281/deploy-status)](https://app.netlify.com/sites/terminal-sn/deploys)
-![Gitmoji](https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=flat-square)
+## About Me
 
-My perfolio website in terminal version developed with React, TypeScript and Styled-Components. Multiple themes supported and keyboard shortcuts can be used for some functionalities.
+**Rishi Raj** — AI Engineer | Noida, India  
+Building production-grade Computer Vision, Generative AI, and full-stack applications.  
+B.Tech CSE, IILM College of Engineering & Technology (2021–2025)
 
-Blog Post: https://satnaing.dev/blog/posts/how-do-i-develop-my-terminal-portfolio-website-with-react
+| | |
+|---|---|
+| Email | rishirajidentity@gmail.com |
+| GitHub | https://github.com/Sikorsky3301 |
+| LinkedIn | https://linkedin.com/in/rishirajx |
+| LeetCode | https://leetcode.com/u/sikorsky3301 |
 
-## Demo
+## Live Demo
 
-<a href="https://www.jinno.app/redirect?from=satnaing&redirect=libary&libName=terminal-portfolio&componentName=App&libCreator=satnaing" target="_blank" rel="noopener noreferrer">Demo - try it in your editor</a>
+Deployed on Vercel — [terminal-portfolio.vercel.app](https://terminal-portfolio.vercel.app)
 
 ## Features
 
-- Responsive Design 📱💻
-- Multiple themes 🎨
-- Autocomplete feature ✨ (TAB | Ctrl + i)
-- Go previous and next command ⬆️⬇️
-- View command history 📖
-- PWA and Offline Support 🔥
-- Well-tested ✅
+- Responsive Design (mobile + desktop)
+- Multiple themes — type `themes` in the terminal
+- Autocomplete (TAB or Ctrl + i)
+- Navigate command history (Up / Down arrow)
+- PWA and Offline Support
+
+## Available Commands
+
+| Command | Description |
+|---------|-------------|
+| `about` | About me |
+| `projects` | My key projects |
+| `projects go <id>` | Open a project in browser |
+| `socials` | My social links |
+| `socials go <id>` | Open a social link |
+| `education` | Education & certifications |
+| `email` | Send me an email |
+| `themes` | List available themes |
+| `themes set <name>` | Change the terminal theme |
+| `history` | View command history |
+| `clear` | Clear the terminal |
+| `help` | List all commands |
 
 ## Tech Stack
 
-**Frontend** - [React](https://reactjs.org/), [TypeScript](https://www.typescriptlang.org/)  
-**Styling** - [Styled-Components](https://styled-components.com/)  
-**UI/UX** - [Figma](https://figma.com/)  
-**State Management** - [ContextAPI](https://reactjs.org/docs/context.html)  
-**Testing** - [Vitest](https://vitest.dev/), [React Testing Library](https://testing-library.com/)  
-**Deployment** - [Netlify](https://app.netlify.com/)
-
-## Multiple Themes
-
-<a href="https://www.jinno.app/redirect?from=satnaing&redirect=libary&libName=terminal-portfolio&componentName=App&libCreator=satnaing" target="_blank" rel="noopener noreferrer">Demo - Dark theme</a><br/>
-<a href="https://www.jinno.app/redirect?from=satnaing&redirect=libary&libName=terminal-portfolio&componentName=AppLight&libCreator=satnaing" target="_blank" rel="noopener noreferrer">Demo - light theme</a><br/>
-<a href="https://www.jinno.app/redirect?from=satnaing&redirect=libary&libName=terminal-portfolio&componentName=AppBlue&libCreator=satnaing" target="_blank" rel="noopener noreferrer">Demo - blue-matrix theme</a><br/>
-<a href="https://www.jinno.app/redirect?from=satnaing&redirect=libary&libName=terminal-portfolio&componentName=AppEspresso&libCreator=satnaing" target="_blank" rel="noopener noreferrer">Demo - espresso theme</a><br/>
-<a href="https://www.jinno.app/redirect?from=satnaing&redirect=libary&libName=terminal-portfolio&componentName=AppGreen&libCreator=satnaing" target="_blank" rel="noopener noreferrer">Demo - green-goblin theme</a><br/>
-<a href="https://www.jinno.app/redirect?from=satnaing&redirect=libary&libName=terminal-portfolio&componentName=AppUbuntu&libCreator=satnaing" target="_blank" rel="noopener noreferrer">Demo - ubuntu theme</a><br/>
-
-Currently, this website supports 6 themes. Type `themes` in the terminal for more info.
-![terminal-portfolio-themes](https://user-images.githubusercontent.com/53733092/194221801-94f1c28b-4865-4b7f-a73e-d41132519bea.png)
-
-## Lighthouse Score
-
-<p align="center">
-<img width="710" alt="Sat Naing Terminal Lighthouse Score" src="public/lighthouse-result.svg">
-</p>
+**Frontend** — React 18, TypeScript  
+**Styling** — Styled-Components  
+**Build Tool** — Vite  
+**Testing** — Vitest, React Testing Library  
+**Deployment** — Vercel
 
 ## Running Locally
 
-Clone the project
-
 ```bash
-git clone https://github.com/satnaing/terminal-portfolio.git
-```
+# Clone the repo
+git clone https://github.com/Sikorsky3301/terminal-portfolio.git
 
-Go to the project directory
-
-```bash
+# Navigate into the project
 cd terminal-portfolio
-```
 
-Remove remote origin
-
-```bash
-git remote remove origin
-```
-
-Install dependencies
-
-```bash
+# Install dependencies
 npm install
-```
 
-Start the server
-
-```bash
+# Start the dev server
 npm run dev
 ```
 
-## Inspiration and Credits
+## Deploying to Vercel
 
-Here are some inspiration for this kind of terminal website. Only some features and functionalities are inspired by these following websites. All codes are written on my own.
+1. Push the project to a GitHub repository
+2. Go to [vercel.com](https://vercel.com) and import the repo
+3. Vercel auto-detects Vite — no config needed
+4. Click **Deploy**
 
-- I built this repository using [Jinno](https://www.jinno.app/redirect?from=satnaing&redirect=vs)
-- [term m4tt72](https://term.m4tt72.com/)
-- [Forrest](https://fkcodes.com/)
+Build settings (auto-detected):
+- **Build Command:** `npm run build`
+- **Output Directory:** `dist`
 
-## Author
+## Credits
 
-- [@satnaing](https://satnaing.dev)
+Based on the open-source terminal portfolio template by [Sat Naing](https://github.com/satnaing/terminal-portfolio).
